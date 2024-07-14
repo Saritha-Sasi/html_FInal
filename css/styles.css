@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-nav {
+    padding: 10px 0;
+    background: linear-gradient(33deg, #F9B406 0%, #DF9300 100%);
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+}
+
+.top-nav p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+}
+
+.logo-1 {
+    width: auto;
+    height: 40px;
+}
+
+.logo-2 {
+    width: auto;
+    height: 40px;
+}
+
+.logo {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main {
+    background-color: #8247d7;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.left-main {
+    box-shadow: 23px 0 25px -35px rgba(0, 0, 0, .5);
+}
+.left-section {
+    padding: 0 80px;
+}
+.left-section ul {
+    padding-left: 16px;
+}
+.left-section ul li {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.left-section img {
+    width: 110px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.data-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 85px);
+}
+
+.loginBox {
+    padding: 0 80px;
+}
+
+.step {
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 31px;
+}
+
+.loginBox input {
+    width: 100%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 12px;
+}
+
+.loginBox input::placeholder {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.loginBox input:focus {
+    background-color: transparent;
+    outline: 1px solid transparent;
+    border-color: 1px solid #0a58ca;
+    box-shadow: none;
+}
+
+.btn.signup-btn {
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    background-color: transparent;
+    background-image: linear-gradient(33deg, #F9B406 0%, #DF9300 100%);
+}
+
+img.logo-b {
+    height: 50px;
+    width: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .loginBox {
+        padding: 0px 30px;
+    }
+    .left-section {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 992px) {
+    .loginBox {
+        padding: 0px 20px;
+    }
+    .left-section {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 575px) {
+    .left-main {
+        padding: 40px;
+        margin-bottom: 50px;
+        box-shadow: 0px 23px 25px -35px rgba(0, 0, 0, .5);
+    }
+}
